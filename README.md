@@ -3,7 +3,9 @@ Small custom view with smooth overscroll. You can add scale background
 
 
 # Work example
-![](https://github.com/vovaksenov99/OverscrollableScrollView/blob/master/example.gif)
+![](https://github.com/vovaksenov99/OverscrollableScrollView/blob/master/c.gif)
+![](https://github.com/vovaksenov99/OverscrollableScrollView/blob/master/b.gif)
+![](https://github.com/vovaksenov99/OverscrollableScrollView/blob/master/a.gif)
 
 # View params.
 
