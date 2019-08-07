@@ -1,6 +1,19 @@
+[![](https://jitpack.io/v/vovaksenov99/OverscrollableScrollView.svg)](https://jitpack.io/#vovaksenov99/OverscrollableScrollView)
 # OverscrolllableNestedScrollView
 Small custom view with smooth overscroll. You can add scale background
 
+``` java
+dependencies {
+        implementation 'com.github.vovaksenov99:OverscrollableScrollView:1.0'
+}
+
+allprojects {
+       repositories {
+          ...
+          maven { url 'https://jitpack.io' }
+        }
+}
+```
 
 # Work example
 ![](https://github.com/vovaksenov99/OverscrollableScrollView/blob/master/c.gif)
