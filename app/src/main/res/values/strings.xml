@@ -35,4 +35,8 @@
         Proin nec diam eu neque porttitor pulvinar id at massa. Nullam nec pellentesque odio, in rhoncus mi. Donec a
         diam ipsum. Fusce sapien nisi, facilisis nec nulla at, sollicitudin sodales sem.
     </string>
+    <string name="introduce_description">Small custom view with smooth overscroll. You can add scale background, header.
+        This is example project for introduce base possibilities of this library
+    </string>
+    <string name="introduce_title">OverscrollScrollView samples</string>
 </resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.akscorp.overscrollablescrollview.OverscrollableNestedScrollView
+            android:id="@+id/special_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/description"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="24dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="24dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:text="@string/lorem_ipsum"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.akscorp.overscrollablescrollview.OverscrollableNestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

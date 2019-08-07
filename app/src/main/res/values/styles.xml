@@ -1,4 +1,19 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
     </style>
+
+    <style name="CollapsedTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ExpandedTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginBottom">50dp</item>
+    </style>
+
+    <style name="AppBarTheme" parent="Widget.Design.AppBarLayout">
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
 </resources>
